@@ -1,0 +1,7 @@
+<?php
+
+define('DATABASE_HOST','localhost');
+define('DATABASE_NAME','crm'); // Put your database name here
+define('DATABASE_USER','user'); // Put your database user here
+define('DATABASE_PASSWORD','pass'); // Put your database password here
+define('DATABASE_PREFIX','crm_'); // Default prefix for table names
