@@ -1,0 +1,31 @@
+/* 
+    Document   : main
+    Created on : 2 mai 2013, 13:03:58
+    Author     : stage
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.center { 
+    text-align: center;
+}
+
+.right { 
+    text-align: right;
+}
+
+.client-apercu{
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: absolute;
+    left: 47.6%;
+}
+
+.client-apercu-fixed{
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: fixed;
+    top : 45px;
+    left: 47.6%;
+}
+

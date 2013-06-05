@@ -1,0 +1,172 @@
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="FortAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fancybox/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <ul class="nav">
+                        <li>
+                            <a href="dashboard.html"><i class="icon-2x icon-home"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="nav pull-right">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i> Alex <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="preference.html">Mes preferences</a></li>
+                                <li class="divider"></li>
+                                <li><a href="login.html">Se deconnecter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    <div style="height: 100px"></div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="span9" >
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="clients.html">TFS</a>
+                    </li>
+                    <li><a href="actions.html">Actions</a></li>
+                </ul>
+            </div>
+            <div class="span3 text-right">
+                <div class="row">
+                    <div class="span3">
+
+
+                        <button class="btn"><i class="icon-2x icon-calendar"></i></button>
+                        &nbsp;
+                        <button class="btn"><i class="icon-2x icon-envelope-alt"></i></button>
+                        &nbsp;
+                        <button class="btn"><i class="icon-2x icon-phone"></i></button>
+                        &nbsp;
+                        <button class="btn btn-danger"><i class="icon-2x icon-trash"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="span12 center">
+                <h2> Nom de l 'entreprise</h2>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="span2">
+                <div class="tabbable tabs-left">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#fiches" data-toggle="tab">Fiches</a>
+                        </li>
+                        <li>
+                            <a href="#contrats" data-toggle="tab">Contrats</a>
+                        </li>
+                        <li>
+                            <a href="#bulletins" data-toggle="tab">Bulletins d'affiliations (salaries TFS)</a>
+                        </li>
+                        <li>
+                            <a href="#divers" data-toggle="tab">Divers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="span3 tab-content">
+                <div class="tab-pane active" id="fiches">
+                    <div class="row">
+                        <div class="span3">
+                            <img src="http://www.loriskumo.com/wp-content/uploads/logo-lego.gif" width="200" />
+                        </div>
+                        <div class="span3" style="margin-top: 30px">
+
+                            <address>
+                                <strong>Name</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                San Francisco, CA 94107<br>
+                                <abbr title="Phone"><i class="icon-phone"></i></abbr> 0600000000
+                            </address>
+
+                            <address>                              
+                                <a href="mailto:#">falex@alex.fr</a>
+                            </address>
+                            <p> <button class="btn">Modifier</button> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="contrats">
+                    <div class="row">
+                        <div class="span3">
+                            Contrat1
+                        </div>
+                        <div class="span7">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="bulletins">
+                    <div class="row">
+                        <div class="span3">
+                            <ul class="unstyled">
+                                <li>TFS</li>
+                                <li>Salaries</li>
+                                <li>TNS</li>
+                            </ul>
+                        </div>
+                        <div class="span3">
+                            <div>
+                                <p> TFS </p>
+                                <img src="http://www.educol.net/coloriage-une-feuille-de-papier-dl10263.jpg" />
+                            </div>
+                            <div class="hidden">
+                                <p> Salaries </p>
+                                <img src="http://www.educol.net/coloriage-une-feuille-de-papier-dl10263.jpg" />
+                            </div>
+                            <div class="hidden">
+                                <p> TNS </p>
+                                <img src="http://www.educol.net/coloriage-une-feuille-de-papier-dl10263.jpg" />
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="divers">
+                    <div class="row">
+                        <div class="span3">
+                            Divers
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
