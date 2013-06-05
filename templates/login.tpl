@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Titre de la page</title>
-        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="Bootstrap/css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="FortAwesome/css/font-awesome.min.css">
-
+        <link rel="stylesheet" href="/css/libs/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/libs/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="/css/libs/font-awesome.min.css">
     </head>
     <body style="background-color: @grey">
 
@@ -42,7 +41,5 @@
             </div>
             
         </div>
-
-
     </body>
 </html>
