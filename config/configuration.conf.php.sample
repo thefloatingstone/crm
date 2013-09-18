@@ -6,3 +6,5 @@ define('PHP_DIR',                   APPLICATION_DOCUMENT_ROOT.'/php');
 define('CSS_URL',                   APPLICATION_URL.'/css');
 define('JS_URL',                    APPLICATION_URL.'/js');
 define('IMG_URL',                   APPLICATION_URL.'/img');
+
+define('ENCRYPTION_KEY', 'xxx');
