@@ -1,4 +1,6 @@
 <?php
-require 'php/init.inc.php';
+//require_once('config/configuration.conf.php');
+//require_once('config/database.conf.php');
+require_once('php/init.inc.php');
 
-$smarty->display('login.tpl');
+require PHP_DIR.'/routes.inc.php';

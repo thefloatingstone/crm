@@ -1,0 +1,8 @@
+<?php
+
+define('APPLICATION_DOCUMENT_ROOT'  , $_SERVER['DOCUMENT_ROOT']);
+define('APPLICATION_URL',           'http://'.$_SERVER['SERVER_NAME']);
+define('PHP_DIR',                   APPLICATION_DOCUMENT_ROOT.'/php');
+define('CSS_URL',                   APPLICATION_URL.'/css');
+define('JS_URL',                    APPLICATION_URL.'/js');
+define('IMG_URL',                   APPLICATION_URL.'/img');
