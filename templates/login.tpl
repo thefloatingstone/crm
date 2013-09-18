@@ -15,6 +15,7 @@
             
             <div class="row">
                 <div class="span7 offset3" >
+                    <div id="logo">CRM</div>
                     <form method="post" class="form-horizontal" action="dashboard.html">
                         <div class="control-group">
                             <label class="control-label" for="inputEmail">Email</label>
