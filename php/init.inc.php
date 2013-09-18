@@ -19,5 +19,4 @@ spl_autoload_register(function ($class_name) {
 /**
  * Library instanciation
  */
-$pdo    = new PDO("mysql:host=" . DATABASE_HOST . ";dbname=" . DATABASE_NAME, DATABASE_USER, DATABASE_PASSWORD);
 $smarty = new Smarty();
