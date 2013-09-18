@@ -3,7 +3,7 @@
 /**
  * Requirements
  */
-require_once($_SERVER['DOCUMENT_ROOT'].'/config/config.inc.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/config/configuration.inc.php');
 require_once PHP_DIR.'/libs/smarty/Smarty.class.php';
 require_once PHP_DIR.'/libs/Router.class.php';
 
